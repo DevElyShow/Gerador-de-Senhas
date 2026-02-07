@@ -15,7 +15,7 @@ https://gerador-de-senhas-phi-five.vercel.app/
 
 ## 📸 Preview do Projeto
 
-![Preview do Gerador de Senhas](./assets/preview.png)
+![Preview do Gerador de Senhas](./src/assets/preview.png)
 
 ---
 
