@@ -8,8 +8,9 @@ O foco do projeto foi aplicar conceitos de **lógica de programação**, **organ
 
 ## 📸 Preview do Projeto
 
-./assets/img/gerador.png
+![Preview do Gerador de CPF](./assets/img/gerador.png)
 
+Hospedado: https://geradordecpf-steel.vercel.app/
 ---
 
 ## 🚀 Funcionalidades
