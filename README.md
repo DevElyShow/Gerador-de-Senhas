@@ -8,7 +8,7 @@ O foco do projeto foi aplicar conceitos de **lógica de programação**, **organ
 
 ## 📸 Preview do Projeto
 
-(./assets/img/gerador.png)
+./assets/img/gerador.png
 
 ---
 
