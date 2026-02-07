@@ -1,24 +1,35 @@
-# 🔢 Gerador de CPF Aleatório
+# 🔐 Gerador de Senhas Aleatórias
 
-Projeto desenvolvido com **JavaScript**, **HTML** e **CSS**, com o objetivo de gerar CPFs válidos de forma aleatória sempre que a página é recarregada.
+Projeto desenvolvido com **JavaScript**, **HTML** e **CSS**, que permite ao usuário gerar senhas aleatórias de forma personalizada, escolhendo a quantidade de caracteres e os tipos de caracteres desejados.
 
-O foco do projeto foi aplicar conceitos de **lógica de programação**, **organização de código**, **build com Webpack** e **boas práticas de versionamento com Git**.
+O projeto tem como foco a aplicação de **lógica de programação**, **manipulação de strings**, **interação com o DOM** e **experiência do usuário**.
+
+---
+
+## 🌐 Deploy do Projeto
+
+🔗 Acesse o projeto online:  
+https://gerador-de-senhas-phi-five.vercel.app/
 
 ---
 
 ## 📸 Preview do Projeto
 
-![Preview do Gerador de CPF](./assets/img/gerador.png)
+![Preview do Gerador de Senhas](./assets/preview.png)
 
-Hospedado: https://geradordecpf-steel.vercel.app/
 ---
 
 ## 🚀 Funcionalidades
 
-- Geração de CPF válido de forma aleatória
-- Novo CPF gerado automaticamente a cada recarregamento da página
-- Interface simples e objetiva
-- Código organizado seguindo boas práticas de estrutura de projeto
+- Definição da quantidade de caracteres da senha
+- Opção de incluir:
+  - Letras maiúsculas
+  - Letras minúsculas
+  - Números
+  - Símbolos
+- Geração de senha aleatória baseada nas opções selecionadas
+- Exibição da senha gerada diretamente na tela
+- Interface simples e intuitiva com botões interativos
 
 ---
 
@@ -27,26 +38,19 @@ Hospedado: https://geradordecpf-steel.vercel.app/
 - **JavaScript (ES6+)**
 - **HTML5**
 - **CSS3**
-- **Node.js**
-- **Webpack**
-- **npm**
 - **Git & GitHub**
+- **Vercel** (Deploy)
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-O projeto foi organizado utilizando o padrão de separação entre código fonte e arquivos de distribuição:
-
 ```bash
 .
-├── dist/        # Arquivos finais gerados pelo Webpack
-├── src/         # Código fonte do projeto
-│   ├── assets/
-│   ├── modules/
-│   └── index.js
-├── public/      # Arquivos públicos
-├── assets/      # Imagens e recursos do README
-├── package.json
-├── webpack.config.js
+├── assets/        # Imagens e recursos do README
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── index.html
 └── README.md
